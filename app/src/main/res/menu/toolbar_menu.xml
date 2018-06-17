@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- app:actionViewClass设置这个item的class，可以设置view -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/action_paste"
+        android:title="@string/paste"
+        android:icon="@drawable/ic_paste"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_sort_by"
+        android:title="@string/sort_by"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_directory_sort_mode"
+        android:title="@string/directory_sort_mode"
+        app:showAsAction="never"/>
+
+</menu>
