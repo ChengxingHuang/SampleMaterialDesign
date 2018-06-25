@@ -59,7 +59,6 @@
     <ImageView
         android:id="@+id/option_menu_image"
         android:layout_height="match_parent"
-        android:layout_width="wrap_content"
-        app:src=""/>
+        android:layout_width="wrap_content"/>
 
 </LinearLayout>
